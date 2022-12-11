@@ -1,0 +1,21 @@
+.order__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #f0efe6;
+  font-size: 18px;
+  border-radius: 10px;
+  border-color: transparent;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  background-color: #68ae40;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+
+.order__button:hover {
+  color: #df541dde;
+}

@@ -1,0 +1,21 @@
+.footer__container {
+  background-color: #322b29;
+  text-align: center;
+}
+
+.footer__container p {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 990px) {
+  .footer__container {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__container {
+    margin-top: 20rem;
+  }
+}
