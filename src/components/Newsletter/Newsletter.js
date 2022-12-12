@@ -3,7 +3,7 @@ import img__9 from "../../images/img__9.png";
 import SubscribeButton from "../SubscribeButton/SubscribeButton";
 import "./Newsletter.css";
 
-const Newsletter = () => {
+function Newsletter() {
   return (
     <div className="newsletter__container">
       <div className="newsletter__grid">
@@ -21,6 +21,6 @@ const Newsletter = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Newsletter;

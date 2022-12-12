@@ -2,7 +2,7 @@ import React from "react";
 import img__3 from "../../images/img__3.png";
 import "./About.css";
 
-const About = () => {
+function About() {
   return (
     <section className="about__container">
       <div className="grid__about">
@@ -25,6 +25,6 @@ const About = () => {
       </div>
     </section>
   );
-};
+}
 
 export default About;

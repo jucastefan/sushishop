@@ -3,7 +3,7 @@ import img__8 from "../../images/img__8.png";
 import OrderButton from "../OrderButton/OrderButton";
 import "./Recently.css";
 
-const Recently = () => {
+function Recently() {
   return (
     <section className="recently__container">
       <div className="grid__recently">
@@ -26,6 +26,6 @@ const Recently = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Recently;

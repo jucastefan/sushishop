@@ -4,7 +4,7 @@ import img__6 from "../../images/img__6.png";
 import img__7 from "../../images/img__7.png";
 import "./Popular.css";
 
-const Popular = () => {
+function Popular() {
   return (
     <section className="popular__container">
       <div className="popular__title">
@@ -33,6 +33,6 @@ const Popular = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Popular;
